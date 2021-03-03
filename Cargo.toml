@@ -1,0 +1,10 @@
+[package]
+name = "pipe-poll"
+version = "0.1.0"
+authors = ["Safin Singh <safin.singh@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+anyhow = "1.0.38"
+async-std = { version = "1.9.0", features = ["attributes"] }
+libc = "0.2.87"
